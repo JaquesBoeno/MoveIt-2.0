@@ -1,0 +1,96 @@
+.LoginPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--blue-01);
+
+  .logo-image {
+    position: relative;
+    left: -6rem;
+
+    img {
+      max-width: 48rem;
+    }
+  }
+
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 12rem;
+    height: 30rem;
+
+    >img {
+      width: 25rem;
+    }
+
+    .form {
+
+      p {
+        color: var(--white);
+        font-weight: 600;
+        font-size: 2.25rem;
+        margin-bottom: 1.5rem;
+      }
+
+      span {
+        color: var(--text-blue);
+        font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+        max-width: 20rem;
+
+        img {
+          width: 2.5rem;
+          height: 2.5rem;
+          margin-right: 1.5rem;
+        }
+      }
+
+      .input-name {
+        display: flex;
+        align-items: center;
+        margin-top: 2.5rem;
+
+        input {
+          font-size: 1.5rem;
+          padding: 1.5rem;
+          height: 5rem;
+          outline: 0;
+          border: 0;
+          background: linear-gradient(90deg, rgb(83, 73, 184) 0%, rgba(73, 83, 184, 0.2) 100%);
+          border-radius: var(--border-radius) 0 0 var(--border-radius);
+          color: var(--white);
+          transition: var(--transition-time);
+          outline: 2px solid transparent;
+          outline-offset: -2px;
+
+          &::placeholder {
+            color: var(--text-blue);
+          }
+
+          &:hover {
+            outline: 2px solid var(--blue-03);
+          }
+
+        }
+
+        input:placeholder-shown+button {
+          background-color: var(--blue-02);
+        }
+
+        button {
+          width: 5rem;
+          height: 5rem;
+          background-color: var(--green);
+          border-radius: 0 var(--border-radius) var(--border-radius) 0;
+          outline: 0;
+          border: 0;
+          transition: var(--transition-time) background;
+        }
+      }
+    }
+  }
+}
