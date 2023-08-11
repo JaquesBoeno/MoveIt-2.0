@@ -2,12 +2,12 @@ import React from 'react'
 
 import './styles.scss'
 
-const Home: React.FC = () => {
+const Countdown: React.FC = () => {
   return (
-    <div className="">
+    <div id="Countdown">
       <h1>hello worlds</h1>
     </div>
   )
 }
 
-export { Home }
+export { Countdown }

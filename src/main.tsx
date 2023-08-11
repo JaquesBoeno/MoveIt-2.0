@@ -1,26 +1,26 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 // Pages
-import { Home } from './pages/Home'
 
 import './global.scss'
 import { Login } from './pages/Login'
-
-const routes = createBrowserRouter([
-  {
-    path: '/',
-    element: <Login />,
-  },
-  {
-    path: '/countdown',
-    element: <Home />,
-  },
-])
+import { Countdown } from './pages/countdown'
+import { Aside } from './components/Aside'
+import { Ranking } from './pages/Ranking'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={routes} />
+    <BrowserRouter>
+      <div className="PageRouterWrapper">
+        <Aside />
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/countdown" element={<Countdown />} />
+          <Route path="/ranking" element={<Ranking />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   </React.StrictMode>
 )
