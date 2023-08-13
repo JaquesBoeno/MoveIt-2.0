@@ -98,5 +98,24 @@ const Up: React.FC = () => {
     </svg>
   )
 }
-
-export { House, Medal, Up }
+const PlayArrow: React.FC = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_149732_113)">
+        <path d="M8 5V19L19 12L8 5Z" fill="white" />
+      </g>
+      <defs>
+        <clipPath id="clip0_149732_113">
+          <rect width="24" height="24" rx="5" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  )
+}
+export { House, Medal, Up, PlayArrow }

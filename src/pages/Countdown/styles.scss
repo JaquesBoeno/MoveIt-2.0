@@ -1,4 +1,4 @@
-#Countdown {
+#CountdownPage {
   padding-top: 2.5rem;
   width: 75%;
   overflow-x: hidden;
@@ -16,6 +16,13 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+
+      .Profile {
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
 
       >div {
         width: 40%;

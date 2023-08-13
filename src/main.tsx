@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import './global.scss'
 import { Login } from './pages/Login'
-import { Countdown } from './pages/countdown'
+import { CountdownPage } from './pages/Countdown'
 import { Aside } from './components/Aside'
 import { Ranking } from './pages/Ranking'
 
@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Aside />
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/countdown" element={<Countdown />} />
+          <Route path="/countdown" element={<CountdownPage />} />
           <Route path="/ranking" element={<Ranking />} />
         </Routes>
       </div>
