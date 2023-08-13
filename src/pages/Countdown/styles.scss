@@ -13,19 +13,22 @@
 
     .Wrapper {
       width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7rem;
+
+      >div {
+        width: 100%;
+      }
 
       .Profile {
-        height: 35rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-      }
 
-      >div {
-        width: 40%;
+        #CompletedChallenges {
+          margin: 5rem 0;
+        }
       }
     }
 

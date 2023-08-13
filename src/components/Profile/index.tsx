@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './styles.scss'
-import { Up } from '../../assets/svgs'
+import { Level } from '../../assets/svgs'
 
 const Profile: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Profile: React.FC = () => {
       <img src="https://github.com/JaquesBoeno.png" />
       <div>
         <h1>JaquesBoeno</h1>
-        <Up />
+        <Level />
         <span>Level 1</span>
       </div>
     </div>
