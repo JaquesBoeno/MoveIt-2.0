@@ -185,4 +185,45 @@ const LevelUp: React.FC = () => {
   )
 }
 
-export { House, Medal, PlayArrow, LevelUp, Level }
+const XIcon: React.FC = () => {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+        fill="#666666"
+      />
+    </svg>
+  )
+}
+
+const Check: React.FC = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_149790_23)">
+        <path
+          d="M9.99984 1.66663C5.39984 1.66663 1.6665 5.39996 1.6665 9.99996C1.6665 14.6 5.39984 18.3333 9.99984 18.3333C14.5998 18.3333 18.3332 14.6 18.3332 9.99996C18.3332 5.39996 14.5998 1.66663 9.99984 1.66663ZM8.33317 14.1666L4.1665 9.99996L5.3415 8.82496L8.33317 11.8083L14.6582 5.48329L15.8332 6.66663L8.33317 14.1666Z"
+          fill="#4CD62B"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_149790_23">
+          <rect width="20" height="20" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  )
+}
+
+export { House, Medal, PlayArrow, LevelUp, Level, XIcon, Check }
