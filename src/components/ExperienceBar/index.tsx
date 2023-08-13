@@ -20,7 +20,7 @@ const ExperienceBar: React.FC = () => {
           className="current-xp-text"
           style={{ left: `${CurrentExperiencePercent}%` }}
         >
-          400 xp
+          {CurrentExperience} xp
         </span>
       </div>
       <span className="next-xp">{ExperienceToNextLevel} xp</span>

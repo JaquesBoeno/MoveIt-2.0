@@ -3,4 +3,24 @@
   width: 75%;
   overflow-x: hidden;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  section {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+
+    .Wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      >div {
+        width: 40%;
+      }
+    }
+
+  }
 }

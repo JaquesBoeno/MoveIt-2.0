@@ -1,0 +1,31 @@
+#Profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  img {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 100%;
+  }
+
+  div {
+    margin-left: 1.5rem;
+
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--titles);
+    }
+
+    svg {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+}
