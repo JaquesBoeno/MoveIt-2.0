@@ -1,27 +1,92 @@
-# React + TypeScript + Vite
+![cover](./assets-md/cover.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2 style="text-align:center;">
+ 🚧 React Select 🚀 Under construction... 🚧
+</h2>
+<h3 style="text-align:center;">
 
-Currently, two official plugins are available:
+![languages-count](https://img.shields.io/github/languages/count/JaquesBoeno/moveit-2.0?color=blue)
+![last-commit](https://img.shields.io/github/last-commit/JaquesBoeno/moveit-2.0?color=blue)
+![last-commit](https://img.shields.io/github/repo-size/JaquesBoeno/moveit-2.0?color=blue)
+![license-mit](https://img.shields.io/badge/license-MIT-blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</h3>
+<h1 style="display:flex; align-items:center;">
+  <img src="./assets-md/favicon.svg" width="32"/> <b style="margin-left: 4px;">Move.it</b>
+</h1>
 
-## Expanding the ESLint configuration
+## **Table of Contents**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [About](#About)
+- [How to Use](#How-to-Use)
+  - [Prerequisites](#prerequisites)
+  - [Start the Application](#start-the-application)
+- [Technologies Used](#technologies-used)
+- [Author](#author)
+- [License](#license)
 
-- Configure the top-level `parserOptions` property like this:
+## **About**
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+Move.it is here to help you manage your time using the Pomodoro technique. Every 25 minutes, it sends you a notification reminding you to take a break and do some stretching, aiming to improve your mental and physical health, as well as your productivity!
+
+## **How to Use**
+
+### **Prerequisites**
+
+- git
+- node.js latest lts
+- yarn or npm
+
+### **Installation**
+
+```bash
+# Clone the repository with this command
+$ git clone https://github.com/JaquesBoeno/moveit.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### **Start the Application**
+
+```bash
+# Navigate to the project directory
+$ cd moveit
+
+# Install dependencies
+$ yarn install
+#or
+$ npm install
+
+# Start the application
+$ yarn dev
+# or
+$ npm run dev
+
+```
+
+## **Technologies Used**
+
+- <h3 style="display:flex; align-items:center;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16"/>
+    <a style="margin-left: 4px;" href="https://reactjs.org/">React</a>
+  </h3>
+
+- <h3 style="display:flex; align-items:center;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" width="16"/>
+    <a style="margin-left: 4px;" href="https://reactjs.org/">Typescript</a>
+  </h3>
+
+- <h3 style="display:flex; align-items:center;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="16"/>
+    <a style="margin-left: 4px;" href="https://reactjs.org/">Sass</a>
+  </h3>
+
+## **Author**
+
+<img style="border-radius:50%" src="https://github.com/JaquesBoeno.png" width="96">
+
+made with ❤️ by Jaques Boeno! 👋🏼 Get in touch!
+
+[![ProtonMail Badge](https://img.shields.io/badge/samuray1326@pm.me-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:jaquesvagnerjunior@gmail.com)
+
+# **License**
+
+Read the LICENSE.md file in the project's root.
