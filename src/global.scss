@@ -7,18 +7,18 @@
 }
 
 :root {
-  --blue-01: #5965E0;
-  --blue-02: #4953B8;
-  --blue-03: #414AA3;
-  --green: #4CD62B;
-  --red: #E83F5B;
-  --text-blue: #B2B9FF;
-  --titles: #2E384D;
+  --blue-01: #5965e0;
+  --blue-02: #4953b8;
+  --blue-03: #414aa3;
+  --green: #4cd62b;
+  --red: #e83f5b;
+  --text-blue: #b2b9ff;
+  --titles: #2e384d;
   --text: #666666;
-  --gray-line: #DCDDE0;
-  --gray: #D7D8DA;
-  --background: #F2F3F5;
-  --white: #FFFFFF;
+  --gray-line: #dcdde0;
+  --gray: #d7d8da;
+  --background: #f2f3f5;
+  --white: #ffffff;
   --border-radius: 0.75rem;
   --transition-time: 200ms;
   --box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
@@ -28,7 +28,9 @@ body,
 input,
 textarea,
 button {
-  font: 400 16px 'inter', sans-serif;
+  font:
+    400 16px "inter",
+    sans-serif;
 }
 
 button {
@@ -43,6 +45,12 @@ a {
 body {
   background: #f2f3f5;
   color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--titles);
 }
 
 .PageRouterWrapper {

@@ -1,1 +1,26 @@
-#RankingPage {}
+#RankingPage {
+  padding-top: 2.5rem;
+  width: 75%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .Ranking {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 1;
+    gap: 1rem;
+    .RankingHeader {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 10fr 2fr 2fr;
+      span {
+        font-weight: bold;
+        text-transform: uppercase;
+        &:nth-child(2) {
+          padding-left: 1.5rem;
+        }
+      }
+    }
+  }
+}
