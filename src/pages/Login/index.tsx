@@ -4,8 +4,14 @@ import moveit from '../../assets/moveit.svg'
 import github from '../../assets/github-icon.svg'
 import arrow from '../../assets/arrow.svg'
 import './styles.scss'
+import { useNavigate } from 'react-router-dom'
 
 const Login: React.FC = () => {
+  const navigate = useNavigate()
+  const singIn = () => {
+    navigate('/countdown')
+  }
+  singIn()
   return (
     <div id="LoginPage">
       <div className="logo-image">
@@ -21,7 +27,7 @@ const Login: React.FC = () => {
           </span>
           <div className="input-name">
             <input placeholder="Digite seu user name" />
-            <button>
+            <button onClick={singIn}>
               <img src={arrow} />
             </button>
           </div>
