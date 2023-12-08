@@ -27,7 +27,7 @@ interface ChallengeProviderProps {
 }
 
 const ChallengeProvider = ({ children }: ChallengeProviderProps) => {
-  const [level, setLevel] = useState(0)
+  const [level, setLevel] = useState(1)
   const [currentExperience, setCurrentExperience] = useState(0)
   const [challengesCompleted, setChallengesCompleted] = useState(0)
   const [experienceToNextLevel, setExperienceToNextLevel] = useState(0)
@@ -39,9 +39,7 @@ const ChallengeProvider = ({ children }: ChallengeProviderProps) => {
   }, [])
 
   useEffect(() => {
-    setExperienceToNextLevel(e => {
-      return e + Math.pow(level, 2) + 100
-    })
+    setExperienceToNextLevel(Math.pow(level, 2) + 100)
   }, [level])
 
   function levelUp() {
