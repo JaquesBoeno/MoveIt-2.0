@@ -17,6 +17,7 @@
 
 ## **Table of Contents**
 
+- [Preview](#Preview)
 - [About](#About)
 - [How to Use](#How-to-Use)
   - [Prerequisites](#prerequisites)
@@ -24,6 +25,10 @@
 - [Technologies Used](#technologies-used)
 - [Author](#author)
 - [License](#license)
+
+## **Preview**
+
+You can see the preview of this project here: https://moveit.jaquesboeno.dev/
 
 ## **About**
 
@@ -41,7 +46,7 @@ Move.it is here to help you manage your time using the Pomodoro technique. Every
 
 ```bash
 # Clone the repository with this command
-$ git clone https://github.com/JaquesBoeno/moveit.git
+$ git clone https://github.com/JaquesBoeno/MoveIt-2.0.git
 ```
 
 ### **Start the Application**
