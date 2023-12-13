@@ -12,6 +12,7 @@
   --blue-03: #414aa3;
   --green: #4cd62b;
   --red: #e83f5b;
+  --dark-gray-github: #24292e;
   --text-blue: #b2b9ff;
   --titles: #2e384d;
   --text: #666666;
@@ -22,6 +23,10 @@
   --border-radius: 0.75rem;
   --transition-time: 200ms;
   --box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+}
+
+img {
+  user-select: none;
 }
 
 body,

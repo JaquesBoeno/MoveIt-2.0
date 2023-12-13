@@ -1,17 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import logo from '../../assets/back-logo.svg'
 import moveit from '../../assets/moveit.svg'
 import github from '../../assets/github-icon.svg'
-import arrow from '../../assets/arrow.svg'
 import './styles.scss'
+import { Github } from '../../assets/svgs'
+import { UserAuthContext } from '../../contexts/UserAuthContext'
 import { useNavigate } from 'react-router-dom'
 
 const Login: React.FC = () => {
+  const { singIn, isAuthenticated } = useContext(UserAuthContext)
   const navigate = useNavigate()
-  const singIn = () => {
-    navigate('/countdown')
-  }
-  singIn()
+
+  if (isAuthenticated) navigate('/countdown')
+
   return (
     <div id="LoginPage">
       <div className="logo-image">
@@ -25,12 +26,12 @@ const Login: React.FC = () => {
             <img src={github} />
             Faça login com seu Github para começar
           </span>
-          <div className="input-name">
-            <input placeholder="Digite seu user name" />
-            <button onClick={singIn}>
-              <img src={arrow} />
-            </button>
-          </div>
+          <button onClick={singIn}>
+            <span>
+              <Github />
+              SingIn with github
+            </span>
+          </button>
         </div>
       </div>
     </div>

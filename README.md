@@ -1,9 +1,9 @@
 ![cover](./assets-md/cover.png)
 
-<h2 style="text-align:center;">
+<h2  align="center">
  🚧 React Select 🚀 Under construction... 🚧
 </h2>
-<h3 style="text-align:center;">
+<h3  align="center">
 
 ![languages-count](https://img.shields.io/github/languages/count/JaquesBoeno/moveit-2.0?color=blue)
 ![last-commit](https://img.shields.io/github/last-commit/JaquesBoeno/moveit-2.0?color=blue)
@@ -11,7 +11,8 @@
 ![license-mit](https://img.shields.io/badge/license-MIT-blue)
 
 </h3>
-<h1 style="display:flex; align-items:center;">
+<br/>
+<h1 align="center">
   <img src="./assets-md/favicon.svg" width="32"/> <b style="margin-left: 4px;">Move.it</b>
 </h1>
 
